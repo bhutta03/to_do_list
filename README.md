@@ -1,6 +1,7 @@
 # to_do_list
 An example smart contract for to-do list, a simple and effective contract for organizing tasks.
 
+One thing to consider, if you are using windows sub-system for linux, always update wsl1 to wsl2 for aptos.
 ## Usage
 
 1. Initialize your aptos account
