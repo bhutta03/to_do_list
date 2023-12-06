@@ -1,5 +1,5 @@
 # to_do_list
-An example smart contract
+An example smart contract for to-do list, a simple and effective contract for organizing tasks.
 
 ## Usage
 
