@@ -14,18 +14,15 @@ module todo_address::todo {
     const DEV: address = @todo_dev;
 
 #[test]
-fun add_todo(aptos_framework: &signer, module_owner: &signer) {
-    todo_address::todo::init_module(&admin);
-    todo_address::todo::add_todo(&user, todo.to_string());
-    
-    let metadata = borrow_global<ContractData>(todo_address::todo::RESOURCE_ACCOUNT);
-    assert!(!smart_table::contains_key(&metadata.todos, signer::address_of(&user)));
+    fun add_todo(creator: &signer){
+        let admin = account(); // Define admin here
+        let user = account(); // Define user here
+        let todo = b"Complete the assignment";
 
-    todo(&account, todo_address);
-    let todo = string::utf8(b"Complete the assignment");
-    add_todo(
-        creator, 
-        todo
-        );
+        todo_address::todo::init_module(&admin);
+        todo_address::todo::add_todo(&user, todo);
+
+        let metadata = borrow_global<ContractData>(todo_address::todo::RESOURCE_ACCOUNT);
+        assert!(!smart_table::contains_key(&metadata.todos, signer::address_of(&user)));
     }
 }
