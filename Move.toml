@@ -1,0 +1,16 @@
+[package]
+name = "todo"
+version = "1.0.0"
+authors = []
+
+[addresses]
+todo_address = "9164c6c42d7ef611379d09d598e9b9e0cdc82b84c5d78bdce7d2acf9aae4affc" # replace with the resource account
+todo_default_admin = "a8bbe10fc3aa57445c1daae3b4eb3a0b5c45acf0f33a200800589285d5406058" # replace with your account
+todo_dev = "a8bbe10fc3aa57445c1daae3b4eb3a0b5c45acf0f33a200800589285d5406058" # replace with your account
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
