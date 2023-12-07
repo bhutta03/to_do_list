@@ -101,5 +101,5 @@ aptos move compile
 
 8. Publish
 ```shell
-aptos move publish --profile reminder
+aptos move publish --profile todolist
 ```
