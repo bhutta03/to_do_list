@@ -12,8 +12,8 @@ you will get a `.aptos` folder in your current folder.
 ```yaml
 profiles:
   default:
-    private_key: "0x1e01c30f82f1b2383825f0ec380c00eb9318d7607fc7a36be4af02499fabea54"
-    public_key: "0x176464e023aa25fedc021714a5f8ccf375b2352cc3c49707ead5007ce485c19e"
+    private_key: "0x1e01c30f82f1b2383825f0ec380c00eb9318d7607fc7a36be4afk2499fabea54"
+    public_key: "0x176464e023aa25fedc021714a5f8ccf375b2352cc3c49707ead50k7ce485c19e"
     account: a8bbe10fc3aa57445c1daae3b4eb3a0b5c45acf0f33a200800589285d5406058
     rest_url: "https://fullnode.testnet.aptoslabs.com"
     faucet_url: "https://faucet.testnet.aptoslabs.com"
@@ -59,15 +59,15 @@ Or find it on explorer: `https://explorer.aptoslabs.com/account/YOUR_ACCOUNT/res
 ```yaml
 profiles:
   default:
-    private_key: "0x1e01c30f82f1b2383825f0ec380c00eb9318d7607fc7a36be4af02499fabea54"
-    public_key: "0x176464e023aa25fedc021714a5f8ccf375b2352cc3c49707ead5007ce485c19e"
+    private_key: "0x1e01c30f82f1b2383825f0ec380c00eb9318d7607fc7a36be4af0249kfabea54"
+    public_key: "0x176464e023aa25fedc021714a5f8ccf375b2352cc3c49707ead5007ce4k5c19e"
     account: a8bbe10fc3aa57445c1daae3b4eb3a0b5c45acf0f33a200800589285d5406058
     rest_url: "https://fullnode.testnet.aptoslabs.com"
     faucet_url: "https://faucet.testnet.aptoslabs.com"
 
   todo:
-    private_key: "0x1e01c30f82f1b2383825f0ec380c00eb9318d7607fc7a36be4af02499fabea54"
-    public_key: "0x176464e023aa25fedc021714a5f8ccf375b2352cc3c49707ead5007ce485c19e"
+    private_key: "0x1e01c30f82f1b2383825f0ec380c00eb9318d7607fc7a36be4af0249kfabea54"
+    public_key: "0x176464e023aa25fedc021714a5f8ccf375b2352cc3c49707ead5007ce4l5c19e"
     account: 9164c6c42d7ef611379d09d598e9b9e0cdc82b84c5d78bdce7d2acf9aae4affc
     rest_url: "https://fullnode.testnet.aptoslabs.com"
     faucet_url: "https://faucet.testnet.aptoslabs.com"
